@@ -243,7 +243,7 @@ async function run() {
             },
           }
         );
-
+//this is new part
         // Update rider
         await ridersCollection.updateOne(
           { _id: new ObjectId(riderId) },
